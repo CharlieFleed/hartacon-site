@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "route": "/default.aspx",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/battle.aspx",
+      "redirect": "/battle.html",
+      "statusCode": 301
+    }
+  ]
+}

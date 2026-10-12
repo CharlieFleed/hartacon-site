@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="MediaUp" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="robots" content="all" />
+    <title>Hartacon Tactics</title>
+    <script type="text/javascript"></script>
+    <style type="text/css" title="currentStyle" media="all">
+        @import url('global.css');
+        #content p
+        {
+            margin: 0.5em;
+        }
+        h4
+        {
+            margin: 0.5em;
+        }
+        .styleBold
+        {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="http://www.facebook.com/HartaconTactics" id="w1415112325716" target="blank">
+                <img src="img/facebook_icon.png" height="48" width="48" style="float: right; display: inline;
+                    margin-top: 8px; margin-right: 8px;" alt="http://www.facebook.com/HartaconTactics" /></a>
+            <a href="http://www.youtube.com/channel/UC120kfdr0m4pg_pZrc10-ng" id="w1415112325717"
+                target="blank">
+                <img src="img/youtube_128x128-120x120.png" alt="youtube_128x128-120x120" height="48"
+                    width="48" style="float: right; display: inline; margin-top: 8px;" title="youtube_128x128-120x120" /></a>
+            <a href="http://twitter.com/HartaconTactics" id="w1415112325718" target="blank">
+                <img src="img/twitter.png" height="48" width="48" style="float: right; display: inline;
+                    margin-top: 8px;" alt="http://twitter.com/HartaconTactics" /></a> <a href="http://www.indiedb.com/games/hartacon-tactics"
+                        id="w1415112325719" target="blank">
+                        <img src="https://button.indiedb.com/popularity/medium/games/25317.png" height="48"
+                            style="float: right; display: inline; margin-top: 8px;" alt="http://www.indiedb.com/games/hartacon-tactics" /></a>
+            <img src="img/logo3.png" alt="logo" />
+            <h3>
+                A game by Charlie Fleed</h3>
+        </div>
+        <div id="topnavi">
+            <ul>
+                <li class="norm"><a href="/">HOME</a></li>
+                <li class="select"><a href="battle.html">BATTLE MECHANICS</a></li>
+            </ul>
+        </div>
+        <div id="headimg">
+            &nbsp;</div>
+        <div id="bodybox">
+            <div id="subnavi">
+                <h2>
+                    Links</h2>
+                <ul>
+                    <li class="norm"><a href="public/setup/hartacontactics.zip">
+                        Download</a></li>
+                    <li class="norm"><a href="public/press-kit.zip">Press-Kit</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>
+                    Battle Mechanics Guide</h2>
+                <br />
+                <h3>
+                    Stats</h3>
+                <p>
+                    Each character has a set of <u>innate stats</u>:
+                </p>
+                <br />
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">SPD</span> <span class="styleBold">Speed</span>,
+                    it affects the turns sequence.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">STR</span> <span class="styleBold">Strength</span>,
+                    it affects the damage of all physical attacks and some skills.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">INT</span> <span class="styleBold">Intelligence</span>,
+                    it affects the power of magic skills.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">ACC</span> <span class="styleBold">Accuracy</span>,
+                    it affects the damage of physical attacks with bows and knives and some skills.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">DEX</span> <span class="styleBold">Dexterity</span>,
+                    it affects the damage of physical attacks with knuckles, swords, spears, and staves
+                    and some skills.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">VIT</span> <span class="styleBold">Vitality</span>,
+                    it affects the overall Physical Defense value.</p>
+                <p>
+                    <span style='color: #4BACC6' class="styleBold">RES</span> <span class="styleBold">Resistance</span>,
+                    it affects the overall Magic Defense value.</p>
+                <br />
+                <p>
+                    and a set of <u>equipment stats</u> that depend on equipped weapon, protections
+                    and accessories:
+                </p>
+                <br />
+                <p>
+                    <span style='color: #00B050' class="styleBold">ATK</span> <span class="styleBold">Attack</span>,
+                    it affects the damage inflicted by physical attacks and physical skills.</p>
+                <p>
+                    <span style='color: #00B050' class="styleBold">PDEF</span> <span class="styleBold">Physical
+                        Defense</span>, it affects the damage inflicted by physical attacks and physical
+                    skills. Physical Defense is typically increased by Armors and Helmets.</p>
+                <p>
+                    <span style='color: #00B050' class="styleBold">MDEF</span> <span class="styleBold">Magic
+                        Defense</span>, it affects the damage inflicted by physical attacks and magic
+                    skills. Magic Defense is typically increased by Hats.</p>
+                <p>
+                    <span style='color: #00B050' class="styleBold">EVA</span> <span class="styleBold">Evasion</span>,
+                    it affects the possibility to evade physical attacks and physical skills. Evasion
+                    is typically increased by Shields.</p>
+                <br />
+                <h3>
+                    Attacks</h3>
+                <p>
+                    <span>In order to succeed, attacks must hit and must not be evaded. </span>
+                </p>
+                <h4>
+                    Hit Rate</h4>
+                <p>
+                    The success-rate of an attack depends on the <b><span style='color: #4BACC6'>Hit Rate<sub>Hero</sub></span></b>
+                    of the attacker, which can be affected by altered states, and on the <b><span style='color: #C0504D'>
+                        Hit Rate<sub>Wpn</sub></span></b> of the equipped weapon, which normally is
+                    <b>100%</b> and goes down to <b>50%</b> when the weapon is broken.</p>
+                <h4>
+                    Evasion</h4>
+                <p>
+                    Only close-combat attacks can be evaded, ranged attacks (Bows and Knives) can't.</p>
+                <p>
+                    In close combat, the chance of evasion is determined by the target's <b><span style='color: #00B050'>
+                        EVA</span></b>, by the comparison of <b><span style='color: #4BACC6'>Dexterity<sub>Hero</sub></span></b>
+                    of target and attacker, and finally by the direction of the attack.</p>
+                <p>
+                    When <b><span style='color: #4BACC6'>Dexterity<sub>Hero</sub></span></b> values
+                    are equal, the chance of evasion equals the value of <b>EVA</b>; when the attacker’s
+                    <b><span style='color: #4BACC6'>Dexterity<sub>Hero</sub></span></b> is higher, the
+                    chance of evasion decreases, and vice versa.</p>
+                <p>
+                    As for the direction of the attack, the chance of evasion from the sides is halved;
+                    for attacks from behind it is reduced to one fourth.</p>
+                <h4>
+                    Damage</h4>
+                <p>
+                    The damage inflicted by a physical attack is calculated with the formula:</p>
+                <p style='margin-left: 142.0pt;'>
+                    <span class="styleBold">Damage</span> = 
+                    <span style='color: red' class="styleBold">POW<sub>Attack</sub></span>
+                    <span> - <b><span style='color: #00B050'>PDef<sub>Hero</sub></span></b></span></p>
+                <h4>
+                    Counterattack</h4>
+                <p>
+                    When attacked from the front or from the sides, a character that is not guarding
+                    will counterattack if his weapon has the proper range to hit the attacker. However,
+                    a character will only counterattack once until his/her next turn.</p>
+                <h4>
+                    Attack Power</h4>
+                <p>
+                    <span style='color: red' class="styleBold">Attack Power</span><span style=''> (<b><span
+                        style='color: red'>POW</span></b>) depends on the attacker's primary stats and on
+                        the equipped weapon's <b><span style='color: #C0504D'>Attack </span></b>and its<b><span
+                            style='color: #C0504D'> scaling factors</span></b>. The formula is:</span></p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: red' class="styleBold">POW<sub>Attack</sub></span><span style=''>
+                        = </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">ATK<sub>Wpn</sub></span><span style=''>
+                        + </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">STR_F<sub>Wpn</sub></span><span style=''>
+                        * <b><span style='color: #4BACC6'>STR<sub>Hero</sub></span></b>+ </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">DEX_F<sub>Wpn</sub></span><span style=''>
+                        * <b><span style='color: #4BACC6'>DEX<sub>Hero</sub></span></b>+ </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">ACC_F<sub>Wpn</sub></span><span style=''>
+                        * <b><span style='color: #4BACC6'>ACC<sub>Hero</sub></span></b></span></p>
+                <p>
+                    <span>The following table provides the values of the scaling factors for each weapon
+                        type:</span></p>
+                <br />
+                <div align="center">
+                    <table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style='border-collapse: collapse;
+                        border: none'>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                background: #F2F2F2; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span><span>&nbsp;</span> <span></span></span>
+                                </p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-left: none; background: #F2F2F2; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span style='color: #C0504D' class="styleBold">STR_F</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-left: none; background: #F2F2F2; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span style='color: #C0504D' class="styleBold">DEX_F</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-left: none; background: #F2F2F2; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span style='color: #C0504D' class="styleBold">ACC_F</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Knuckles</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.5</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.5</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Sword</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.8</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.2</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Axe</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>1.0</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Spear</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.6</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.4</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Bow</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.25</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.75</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Knife</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.5</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.5</span></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Staff</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.7</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>0.3</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="109" valign="top" style='width: 81.5pt; border: solid windowtext 1.0pt;
+                                border-top: none; background: #D9D9D9; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p style='margin-bottom: 0cm; margin-bottom: .0001pt; line-height: normal'>
+                                    <span class="styleBold" style='color: #000000'>Hammer</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    <span>1.0</span></p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                            <td width="109" valign="top" style='width: 81.5pt; border-top: none; border-left: none;
+                                border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt;
+                                background: gray; padding: 0cm 3.5pt 0cm 3.5pt'>
+                                <p align="center" style='margin-bottom: 0cm; margin-bottom: .0001pt; text-align: center;
+                                    line-height: normal'>
+                                    0</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <h4>
+                    Physical Defense</h4>
+                <p>
+                    <span style='color: #00B050' class="styleBold">Physical Defense </span><span style=''>
+                        depends on a character's <b><span style='color: #4BACC6'>Vitality </span></b>and
+                        on the sum of equipped protections' <b><span style='color: #C0504D'>Physical Defense</span></b>.
+                        The formula is:</span></p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #00B050' class="styleBold">PDef<sub>Hero</sub></span><span style=''>
+                        = </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #4BACC6' class="styleBold">VIT<sub>Hero</sub></span><span style=''>
+                        + </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span>Sum(<b><span style='color: #C0504D'>PDef<sub>Prot</sub></span></b></span><span
+                        style='font-family: "Qlassik Medium","serif";'>)</span></p>
+                <u><span style='line-height: 115%' class="styleBold">
+                    <br clear="all" style='page-break-before: always' />
+                </span></u>
+                <br />
+                <h3>
+                    Skills</h3>
+                <p>
+                    The damage inflicted by a skill follows the formula:</p>
+                <p style='margin-left: 142.0pt;'>
+                    <span class="styleBold">Damage</span><span style=''> = </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span><b><span style='color: red'><span>POW<sub>Skill</sub></span></span></b><span
+                        style='color: #9C85C0'><span> </span></span><span>+ </span></span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">ATK_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #C0504D'>ATK<sub>Wpn</sub></span></b> +</span></p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">STR_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #4BACC6'>STR<sub>Hero</sub></span></b> + </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">INT_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #4BACC6'>INT<sub>Hero</sub></span></b> + </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">RES_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #4BACC6'>RES<sub>Hero</sub></span></b> +</span></p>
+                <p style='margin-left: 142.0pt; text-align: justify'>
+                    <span style='color: #C0504D' class="styleBold">ACC_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #4BACC6'>ACC<sub>Hero</sub></span></b> + </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold"><span>DEX_F<sub>Skill</sub> </span>
+                    </span><span><span>* <b><span style='color: #4BACC6'>DEX<sub>Hero</sub></span></b> +</span></span><span
+                        style='font-family: "Qlassik Medium","serif";'><b><span style='color: #9C85C0'> </span>
+                        </b></span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold"><span>VIT_F<sub>Skill</sub> </span>
+                    </span><span><span>* <b><span style='color: #4BACC6'>VIT<sub>Hero</sub></span></b> +</span></span><span
+                        style='font-family: "Qlassik Medium","serif";'><b><span style='color: #9C85C0'> </span>
+                        </b></span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #C0504D' class="styleBold">SPD_F<sub>Skill</sub> </span><span
+                        style=''>* <b><span style='color: #4BACC6'>SPD<sub>Hero</sub></span></b> +</span></p>
+                <p style='margin-left: 142.0pt;'>
+                    <span>- <b><span style='color: #00B050'>MDef<sub>Hero</sub></span></b></span><u></u></p>
+                <br />
+                <h4>
+                    Magic Defense</h4>
+                <p>
+                    <span style='color: #00B050' class="styleBold">Magic Defense </span><span style=''>depends
+                        on a character's <b><span style='color: #4BACC6'>
+                            Resistence </span></b>and on the equipped protections’ <b><span style='color: #C0504D'>
+                                Magic Defense</span></b>. The formula is:</span></p>
+                <p style='margin-left: 142.0pt;'>
+                    <span style='color: #00B050' class="styleBold">MDef<sub>Hero</sub></span><span style=''>
+                        = </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span><b><span style='color: #4BACC6'>RES<sub>Hero</sub></span></b><span style='color: #4BACC6'>
+                    </span>+ </span>
+                </p>
+                <p style='margin-left: 142.0pt;'>
+                    <span>Sum(<b><span style='color: #C0504D'>MDef<sub>Prot</sub></span></b></span><span
+                        style='font-family: "Qlassik Medium","serif";'>)</span></p>
+                <u><span style='line-height: 115%' class="styleBold">
+                    <br />
+                </span></u>
+                <br />
+                <h3>
+                    Status Ailments</h3>
+                <p>
+                    <span>Status ailments inflicted by equipped gears cannot be cured.</span></p>
+                <p>
+                    <span>Some status ailments are infective. If a character with an active infective ailment
+                        uses an attack or a physical skill against a target, a two-units fill effect will
+                        be added.</span></p>
+                <p>
+                    <span>Filling of already active ailments has no effect. </span>
+                </p>
+                <br />
+                <h3>
+                    Protections</h3>
+                <p>
+                    <span>Broken protections have halved <b><span style='color: #C0504D'>PDef<sub>Prot</sub></span></b><span
+                        style='color: #C0504D'> </span>and <b><span style='color: #C0504D'>MDef<sub>Prot</sub></span></b>,
+                        and lose their auto-state characteristics.</span></p>
+                <br />
+                <h3>
+                    Elemental damage</h3>
+                <p>
+                    <span>Protections' <b>Elemental Damage</b>,<b> </b>when positive, indicates the damage
+                        factor for an element, 100 indicating no change; when negative, it indicates an
+                        absorption factor.</span></p>
+                <p>
+                    <span>Positive elemental damage values are added, not multiplied, the same for negative
+                        ones. A sum of positive reduced damage cannot give absorption effect (see Example
+                        2).</span></p>
+                <p>
+                    <span>When combining damage and absorption, the two values are multiplied.</span></p>
+                <br />
+                <p>
+                    <u><span>Example 1</span></u></p>
+                <p>
+                    <span>helmet elemental damage 120&ensp;&ensp;+20%</span></p>
+                <p>
+                    <span>shield elemental damage 70&ensp;&ensp;-30%</span></p>
+                <p>
+                    <span>ring elemental damage: -30&ensp;&ensp;absorb 30%</span></p>
+                <p>
+                    <span>COMBINED EFFECT:&ensp;&ensp;[100 + ( 20 - 30 )] * ( -30 / 100)==&gt;&ensp;&ensp;absorb
+                        27% </span>
+                </p>
+                <br />
+                <p>
+                    <u><span>Example 2</span></u></p>
+                <p>
+                    <span>helmet elemental damage 50&ensp;&ensp;-50%</span></p>
+                <p>
+                    <span>shield elemental damage 25&ensp;&ensp;-75%</span></p>
+                <p>
+                    <span>COMBINED EFFECT:&ensp;&ensp;100 + ( - 50 - 75 ) = - 25==&gt; 0% </span><b><u></u>
+                    </b>
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            © Copyright 2014 Daniele Messina AKA Charlie Fleed. All Rights Reserved. | Design
+            by <a href="http://www.easylux.de/">Lampen &amp; Leuchten</a></div>
+        <div class="cleaner">
+        </div>
+    </div>
+</body>
+</html>
